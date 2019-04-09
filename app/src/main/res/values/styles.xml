@@ -1,0 +1,61 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme.Base" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme" parent="AppTheme.Base" />
+
+    <style name="MainActivityTheme" parent="AppTheme">
+        <item name="android:theme">@style/Theme.AppCompat.NoActionBar</item>
+    </style>
+
+    <style name="OnBoardTheme" parent="AppTheme">
+        <item name="android:windowBackground">@drawable/onboard_image</item>
+    </style>
+
+    <style name="EditTextStyle">
+        <item name="android:padding">8dp</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">italic</item>
+    </style>
+
+
+    <style name="AppTheme.TransNav" parent="AppTheme" />
+
+    <style name="Widget.MaterialSheetFab.Sheet" parent="">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:layout_marginBottom">10dp</item>
+        <item name="android:layout_marginLeft">10dp</item>
+        <item name="android:layout_marginRight">10dp</item>
+    </style>
+
+    <style name="TextAppearance.MaterialSheetFab.Sheet.Item" parent="">
+        <item name="android:layout_width">@dimen/twoHalfC</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">@dimen/sm_keyLines</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/whiteText</item>
+        <item name="android:drawablePadding">@dimen/nm_keyLines</item>
+    </style>
+
+    <style name="myFabTextView">
+        <item name="android:layout_width">@dimen/twoHalfC</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">@dimen/sm_keyLines</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/whiteText</item>
+        <item name="android:drawablePadding">@dimen/nm_keyLines</item>
+        <item name="android:background">?android:attr/selectableItemBackground</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+</resources>

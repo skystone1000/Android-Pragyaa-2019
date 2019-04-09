@@ -1,0 +1,753 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:theme="@style/Theme.AppCompat"
+    tools:context="org.pragyaa.pragyaa2018.MainActivity">
+
+
+    <!-- Image Header -->
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/appbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fitsSystemWindows="true">
+
+        <android.support.design.widget.CollapsingToolbarLayout
+            android:id="@+id/toolbar_layout"
+            android:layout_width="match_parent"
+            android:layout_height="160dp"
+            android:fitsSystemWindows="true"
+            android:theme="@style/ThemeOverlay.AppCompat.Dark"
+            app:contentScrim="?attr/colorPrimary"
+            app:layout_scrollFlags="scroll|exitUntilCollapsed">
+
+
+            <ImageView
+                android:fitsSystemWindows="true"
+                android:id="@+id/header_img"
+                android:scaleType="fitXY"
+                android:src="@drawable/pragyaa_header"
+                android:layout_width="match_parent"
+                app:layout_collapseMode="parallax"
+                android:layout_height="match_parent" />
+
+
+            <android.support.v7.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                app:layout_collapseMode="pin"
+                app:popupTheme="@style/ThemeOverlay.AppCompat.Light" />
+
+        </android.support.design.widget.CollapsingToolbarLayout>
+    </android.support.design.widget.AppBarLayout>
+
+    <!-- Events CardViews-->
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        android:background="@color/whiteText">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <!--Robotics-->
+            <android.support.v7.widget.CardView
+                android:layout_marginLeft="@dimen/vsm_keyLines"
+                android:layout_marginRight="@dimen/vsm_keyLines"
+                android:layout_marginTop="@dimen/vsm_keyLines"
+                android:layout_marginBottom="4dp"
+                app:cardElevation="4dp"
+                android:contextClickable="true"
+                android:foreground="?android:attr/selectableItemBackground"
+                app:cardCornerRadius="@dimen/vsm_keyLines"
+                android:layout_width="match_parent"
+                android:layout_height="100dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+
+                        android:id="@+id/robotics_img"
+                        android:scaleType="centerCrop"/>
+
+                    <LinearLayout
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:background="@drawable/text_back_grey"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <com.romainpiel.shimmer.ShimmerTextView
+                            android:id="@+id/robotics"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@drawable/text_back_grey"
+                            android:clickable="true"
+                            android:gravity="center"
+                            android:text="ROBOTICS"
+                            android:textColor="@color/whiteText"
+                            android:textSize="18sp"
+                            android:foreground="?android:attr/selectableItemBackground"
+                            app:reflectionColor="@color/colorPrimaryDark" />
+
+
+                    </LinearLayout>
+
+                </RelativeLayout>
+
+            </android.support.v7.widget.CardView>
+
+            <!--Special events // Creative events-->
+            <android.support.v7.widget.CardView
+                android:layout_marginLeft="@dimen/vsm_keyLines"
+                android:layout_marginRight="@dimen/vsm_keyLines"
+                android:layout_marginTop="@dimen/vsm_keyLines"
+                android:layout_marginBottom="4dp"
+                app:cardElevation="4dp"
+                android:contextClickable="true"
+                android:foreground="?android:attr/selectableItemBackground"
+                app:cardCornerRadius="@dimen/vsm_keyLines"
+                android:layout_width="match_parent"
+                android:layout_height="100dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+
+                        android:id="@+id/special_img"
+                        android:scaleType="centerCrop"/>
+
+                    <LinearLayout
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:background="@drawable/text_back_grey"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <com.romainpiel.shimmer.ShimmerTextView
+                            android:id="@+id/special_event"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@drawable/text_back_grey"
+                            android:clickable="true"
+                            android:gravity="center"
+                            android:text="CREATIVE EVENTS"
+                            android:textColor="@color/whiteText"
+                            android:textSize="18sp"
+                            android:foreground="?android:attr/selectableItemBackground"
+                            app:reflectionColor="@color/colorPrimaryDark" />
+
+
+                    </LinearLayout>
+
+                </RelativeLayout>
+
+            </android.support.v7.widget.CardView>
+
+            <!--gaming zone-->
+            <android.support.v7.widget.CardView
+                android:layout_marginLeft="@dimen/vsm_keyLines"
+                android:layout_marginRight="@dimen/vsm_keyLines"
+                android:layout_marginTop="@dimen/vsm_keyLines"
+                android:layout_marginBottom="4dp"
+                app:cardElevation="4dp"
+                android:contextClickable="true"
+                android:foreground="?android:attr/selectableItemBackground"
+                app:cardCornerRadius="@dimen/vsm_keyLines"
+                android:layout_width="match_parent"
+                android:layout_height="100dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+
+                        android:id="@+id/gaming_img"
+                        android:scaleType="centerCrop"/>
+
+                    <LinearLayout
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:background="@drawable/text_back_grey"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <com.romainpiel.shimmer.ShimmerTextView
+                            android:id="@+id/gaming"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@drawable/text_back_grey"
+                            android:clickable="true"
+                            android:gravity="center"
+                            android:text="GAMING ZONE"
+                            android:textColor="@color/whiteText"
+                            android:textSize="18sp"
+                            android:foreground="?android:attr/selectableItemBackground"
+                            app:reflectionColor="@color/colorPrimaryDark" />
+
+
+                    </LinearLayout>
+
+                </RelativeLayout>
+
+            </android.support.v7.widget.CardView>
+
+            <!--Online Event and exhibition //Online events-->
+            <android.support.v7.widget.CardView
+                android:layout_marginLeft="@dimen/vsm_keyLines"
+                android:layout_marginRight="@dimen/vsm_keyLines"
+                android:layout_marginTop="@dimen/vsm_keyLines"
+                android:layout_marginBottom="4dp"
+                app:cardElevation="4dp"
+                android:contextClickable="true"
+                android:foreground="?android:attr/selectableItemBackground"
+                app:cardCornerRadius="@dimen/vsm_keyLines"
+                android:layout_width="match_parent"
+                android:layout_height="100dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+
+                        android:id="@+id/online_img"
+                        android:scaleType="centerCrop"/>
+
+                    <LinearLayout
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:background="@drawable/text_back_grey"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <com.romainpiel.shimmer.ShimmerTextView
+                            android:id="@+id/online_eve"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@drawable/text_back_grey"
+                            android:clickable="true"
+                            android:gravity="center"
+                            android:text="ONLINE EVENTS"
+                            android:textColor="@color/whiteText"
+                            android:textSize="18sp"
+                            android:foreground="?android:attr/selectableItemBackground"
+                            app:reflectionColor="@color/colorPrimaryDark" />
+
+
+                    </LinearLayout>
+
+                </RelativeLayout>
+
+            </android.support.v7.widget.CardView>
+
+            <!--coding  // Codester-->
+            <android.support.v7.widget.CardView
+                android:layout_marginLeft="@dimen/vsm_keyLines"
+                android:layout_marginRight="@dimen/vsm_keyLines"
+                android:layout_marginTop="@dimen/vsm_keyLines"
+                android:layout_marginBottom="4dp"
+                app:cardElevation="4dp"
+                android:contextClickable="true"
+                android:foreground="?android:attr/selectableItemBackground"
+                app:cardCornerRadius="@dimen/vsm_keyLines"
+                android:layout_width="match_parent"
+                android:layout_height="100dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+
+                        android:id="@+id/coding_img"
+                        android:scaleType="centerCrop"/>
+
+                    <LinearLayout
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:background="@drawable/text_back_grey"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <com.romainpiel.shimmer.ShimmerTextView
+                            android:id="@+id/coding_eve"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@drawable/text_back_grey"
+                            android:clickable="true"
+                            android:gravity="center"
+                            android:text="CODESTER"
+                            android:textColor="@color/whiteText"
+                            android:textSize="18sp"
+                            android:foreground="?android:attr/selectableItemBackground"
+                            app:reflectionColor="@color/colorPrimaryDark" />
+
+
+                    </LinearLayout>
+
+                </RelativeLayout>
+
+            </android.support.v7.widget.CardView>
+
+            <!--tasking  // Chemtrek-->
+            <android.support.v7.widget.CardView
+                android:layout_marginLeft="@dimen/vsm_keyLines"
+                android:layout_marginRight="@dimen/vsm_keyLines"
+                android:layout_marginTop="@dimen/vsm_keyLines"
+                android:layout_marginBottom="4dp"
+                app:cardElevation="4dp"
+                android:contextClickable="true"
+                android:foreground="?android:attr/selectableItemBackground"
+                app:cardCornerRadius="@dimen/vsm_keyLines"
+                android:layout_width="match_parent"
+                android:layout_height="100dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+
+                        android:id="@+id/tasking_img"
+                        android:scaleType="centerCrop"/>
+
+                    <LinearLayout
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:background="@drawable/text_back_grey"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <com.romainpiel.shimmer.ShimmerTextView
+                            android:id="@+id/tasking_eve"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@drawable/text_back_grey"
+                            android:clickable="true"
+                            android:gravity="center"
+                            android:text="CHEMTREK"
+                            android:textColor="@color/whiteText"
+                            android:textSize="18sp"
+                            android:foreground="?android:attr/selectableItemBackground"
+                            app:reflectionColor="@color/colorPrimaryDark" />
+
+
+                    </LinearLayout>
+
+                </RelativeLayout>
+
+            </android.support.v7.widget.CardView>
+
+            <!--paper presentation  // Elechroma-->
+            <android.support.v7.widget.CardView
+                android:layout_marginLeft="@dimen/vsm_keyLines"
+                android:layout_marginRight="@dimen/vsm_keyLines"
+                android:layout_marginTop="@dimen/vsm_keyLines"
+                android:layout_marginBottom="4dp"
+                app:cardElevation="4dp"
+                android:contextClickable="true"
+                android:foreground="?android:attr/selectableItemBackground"
+                app:cardCornerRadius="@dimen/vsm_keyLines"
+                android:layout_width="match_parent"
+                android:layout_height="100dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:id="@+id/paper_img"
+                        android:scaleType="centerCrop"/>
+
+                    <LinearLayout
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:background="@drawable/text_back_grey"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <com.romainpiel.shimmer.ShimmerTextView
+                            android:id="@+id/paperpresentation_eve"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@drawable/text_back_grey"
+                            android:clickable="true"
+                            android:gravity="center"
+                            android:text="ELECHROMA"
+                            android:textColor="@color/whiteText"
+                            android:textSize="18sp"
+                            android:foreground="?android:attr/selectableItemBackground"
+                            app:reflectionColor="@color/colorPrimaryDark" />
+
+
+                    </LinearLayout>
+
+                </RelativeLayout>
+
+            </android.support.v7.widget.CardView>
+
+            <!--designing  // Mechatron-->
+            <android.support.v7.widget.CardView
+                android:layout_marginLeft="@dimen/vsm_keyLines"
+                android:layout_marginRight="@dimen/vsm_keyLines"
+                android:layout_marginTop="@dimen/vsm_keyLines"
+                android:layout_marginBottom="4dp"
+                app:cardElevation="4dp"
+                android:contextClickable="true"
+                android:foreground="?android:attr/selectableItemBackground"
+                app:cardCornerRadius="@dimen/vsm_keyLines"
+                android:layout_width="match_parent"
+                android:layout_height="100dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:id="@+id/designing_img"
+                        android:scaleType="centerCrop"/>
+
+                    <LinearLayout
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:background="@drawable/text_back_grey"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <com.romainpiel.shimmer.ShimmerTextView
+                            android:id="@+id/designing_eve"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@drawable/text_back_grey"
+                            android:clickable="true"
+                            android:gravity="center"
+                            android:text="MECHATRON"
+                            android:textColor="@color/whiteText"
+                            android:textSize="18sp"
+                            android:foreground="?android:attr/selectableItemBackground"
+                            app:reflectionColor="@color/colorPrimaryDark" />
+
+
+                    </LinearLayout>
+
+                </RelativeLayout>
+
+            </android.support.v7.widget.CardView>
+
+            <!--cenfest-->
+            <android.support.v7.widget.CardView
+                android:layout_marginLeft="@dimen/vsm_keyLines"
+                android:layout_marginRight="@dimen/vsm_keyLines"
+                android:layout_marginTop="@dimen/vsm_keyLines"
+                android:layout_marginBottom="4dp"
+                app:cardElevation="4dp"
+                android:contextClickable="true"
+                android:foreground="?android:attr/selectableItemBackground"
+                app:cardCornerRadius="@dimen/vsm_keyLines"
+                android:layout_width="match_parent"
+                android:layout_height="100dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+
+                        android:id="@+id/cenfest_img"
+                        android:scaleType="centerCrop"/>
+
+                    <LinearLayout
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:background="@drawable/text_back_grey"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <com.romainpiel.shimmer.ShimmerTextView
+                            android:id="@+id/cenfest_eve"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@drawable/text_back_grey"
+                            android:clickable="true"
+                            android:gravity="center"
+                            android:text="CENFEST"
+                            android:textColor="@color/whiteText"
+                            android:textSize="18sp"
+                            android:foreground="?android:attr/selectableItemBackground"
+                            app:reflectionColor="@color/colorPrimaryDark" />
+
+
+                    </LinearLayout>
+
+                </RelativeLayout>
+
+            </android.support.v7.widget.CardView>
+
+            <!--textplorer-->
+            <android.support.v7.widget.CardView
+                android:layout_marginLeft="@dimen/vsm_keyLines"
+                android:layout_marginRight="@dimen/vsm_keyLines"
+                android:layout_marginTop="@dimen/vsm_keyLines"
+                android:layout_marginBottom="4dp"
+                app:cardElevation="4dp"
+                android:contextClickable="true"
+                android:foreground="?android:attr/selectableItemBackground"
+                app:cardCornerRadius="@dimen/vsm_keyLines"
+                android:layout_width="match_parent"
+                android:layout_height="100dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:id="@+id/textplorer_img"
+                        android:scaleType="centerCrop"/>
+
+                    <LinearLayout
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:background="@drawable/text_back_grey"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <com.romainpiel.shimmer.ShimmerTextView
+                            android:id="@+id/textplorer_eve"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@drawable/text_back_grey"
+                            android:clickable="true"
+                            android:gravity="center"
+                            android:text="TEXTPLORER"
+                            android:textColor="@color/whiteText"
+                            android:textSize="18sp"
+                            android:foreground="?android:attr/selectableItemBackground"
+                            app:reflectionColor="@color/colorPrimaryDark" />
+
+
+                    </LinearLayout>
+
+                </RelativeLayout>
+
+            </android.support.v7.widget.CardView>
+
+            <!--quiz  // Conference-->
+            <android.support.v7.widget.CardView
+                android:layout_marginLeft="@dimen/vsm_keyLines"
+                android:layout_marginRight="@dimen/vsm_keyLines"
+                android:layout_marginTop="@dimen/vsm_keyLines"
+                android:layout_marginBottom="4dp"
+                app:cardElevation="4dp"
+                android:contextClickable="true"
+                android:foreground="?android:attr/selectableItemBackground"
+                app:cardCornerRadius="@dimen/vsm_keyLines"
+                android:layout_width="match_parent"
+                android:layout_height="100dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+
+                        android:id="@+id/quiz_img"
+                        android:scaleType="centerCrop"/>
+
+                    <LinearLayout
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:background="@drawable/text_back_grey"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <com.romainpiel.shimmer.ShimmerTextView
+                            android:id="@+id/quiz_eve"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@drawable/text_back_grey"
+                            android:clickable="true"
+                            android:gravity="center"
+                            android:text="CONFERENCE"
+                            android:textColor="@color/whiteText"
+                            android:textSize="18sp"
+                            android:foreground="?android:attr/selectableItemBackground"
+                            app:reflectionColor="@color/colorPrimaryDark" />
+
+
+                    </LinearLayout>
+
+                </RelativeLayout>
+
+            </android.support.v7.widget.CardView>
+
+            <!--EXHIBITION-->
+            <android.support.v7.widget.CardView
+                android:layout_marginLeft="@dimen/vsm_keyLines"
+                android:layout_marginRight="@dimen/vsm_keyLines"
+                android:layout_marginTop="@dimen/vsm_keyLines"
+                android:layout_marginBottom="4dp"
+                app:cardElevation="4dp"
+                android:contextClickable="true"
+                android:foreground="?android:attr/selectableItemBackground"
+                app:cardCornerRadius="@dimen/vsm_keyLines"
+                android:layout_width="match_parent"
+                android:layout_height="100dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:id="@+id/exhibition_img"
+                        android:scaleType="centerCrop"/>
+
+                    <LinearLayout
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:background="@drawable/text_back_grey"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <com.romainpiel.shimmer.ShimmerTextView
+                            android:id="@+id/exhibition_eve"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@drawable/text_back_grey"
+                            android:clickable="true"
+                            android:gravity="center"
+                            android:text="EXHIBITION"
+                            android:textColor="@color/whiteText"
+                            android:textSize="18sp"
+                            android:foreground="?android:attr/selectableItemBackground"
+                            app:reflectionColor="@color/colorPrimaryDark" />
+
+
+                    </LinearLayout>
+
+                </RelativeLayout>
+
+            </android.support.v7.widget.CardView>
+
+        </LinearLayout>
+    </android.support.v4.widget.NestedScrollView>
+
+    <!-- Circular reveal button-->
+    <org.pragyaa.pragyaa2018.Fab
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="@dimen/sm_keyLines"
+        android:background="@color/whiteText"
+        android:elevation="4dp"
+        app:srcCompat="@drawable/ic_menu_more"
+        app:fab_colorNormal="@color/colorAccent" />
+
+    <!-- Dim the layout when reveal container is clicked -->
+    <com.gordonwong.materialsheetfab.DimOverlayFrameLayout
+        android:id="@+id/overlay"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <!-- Circular reveal container for the sheet -->
+    <io.codetail.widget.RevealLinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="end|bottom"
+        android:orientation="vertical">
+
+        <!-- Sheet that contains items -->
+        <android.support.v7.widget.CardView
+            android:id="@+id/fab_sheet"
+            style="@style/Widget.MaterialSheetFab.Sheet">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/colorAccent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/register"
+                    style="@style/myFabTextView"
+                    android:drawableLeft="@drawable/ic_register_selector"
+                    android:drawableStart="@drawable/ic_register_selector"
+                    android:text="Register" />
+
+                <TextView
+                    android:id="@+id/schedule"
+                    style="@style/myFabTextView"
+                    android:drawableLeft="@drawable/ic_schedule_selector"
+                    android:drawableStart="@drawable/ic_schedule_selector"
+                    android:text="Schedule" />
+
+                <TextView
+                    android:id="@+id/hospitality"
+                    style="@style/myFabTextView"
+                    android:drawableLeft="@drawable/ic_hospi_selector"
+                    android:drawableStart="@drawable/ic_hospi_selector"
+                    android:text="Hospitality" />
+
+                <TextView
+                    android:id="@+id/contact"
+                    style="@style/myFabTextView"
+                    android:drawableLeft="@drawable/ic_contact_selector"
+                    android:drawableStart="@drawable/ic_contact_selector"
+                    android:text="Contact Us" />
+
+                <TextView
+                    android:id="@+id/about"
+                    style="@style/myFabTextView"
+                    android:drawableLeft="@drawable/ic_about_selector"
+                    android:drawableStart="@drawable/ic_about_selector"
+                    android:text="About Us" />
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+    </io.codetail.widget.RevealLinearLayout>
+
+
+</android.support.design.widget.CoordinatorLayout>

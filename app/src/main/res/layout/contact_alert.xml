@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/contact_alert"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/activity_horizontal_margin">
+
+    <TextView
+        android:visibility="invisible"
+        android:id="@+id/heading_chief"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="-Main Coordinators-"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:textIsSelectable="true"
+        android:textAlignment="center"
+        android:visibility="invisible"
+        android:id="@+id/main_cordi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/micro_keyLines"
+        android:text="name of main coordi n phone "
+        android:textSize="18sp" />
+
+    <TextView
+        android:visibility="invisible"
+        android:id="@+id/heading_sub"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/micro_keyLines"
+        android:text="-Joint Coordinators-"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:textIsSelectable="true"
+        android:textAlignment="center"
+        android:visibility="invisible"
+        android:id="@+id/joint_one"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="name of joint coordi n phone "
+        android:textSize="18sp" />
+
+    <TextView
+        android:layout_marginTop="@dimen/vsm_keyLines"
+        android:textIsSelectable="true"
+        android:textAlignment="center"
+        android:visibility="invisible"
+        android:id="@+id/joint_two"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="name of joint coordi n phone "
+        android:textSize="18sp" />
+
+    <TextView
+        android:layout_marginTop="@dimen/vsm_keyLines"
+        android:textIsSelectable="true"
+        android:textAlignment="center"
+        android:visibility="invisible"
+        android:id="@+id/joint_three"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="name of joint coordi n phone "
+        android:textSize="18sp" />
+
+    <TextView
+        android:layout_marginTop="@dimen/vsm_keyLines"
+        android:textIsSelectable="true"
+        android:textAlignment="center"
+        android:visibility="invisible"
+        android:id="@+id/joint_four"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="name of joint coordi n phone "
+        android:textSize="18sp" />
+
+    <TextView
+        android:layout_marginTop="@dimen/vsm_keyLines"
+        android:textIsSelectable="true"
+        android:textAlignment="center"
+        android:visibility="invisible"
+        android:id="@+id/joint_five"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="name of joint coordi n phone "
+        android:textSize="18sp" />
+</LinearLayout>

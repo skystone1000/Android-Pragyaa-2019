@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:id="@+id/activity_about_us"
+    tools:context="org.pragyaa.pragyaa2018.AboutUs">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@color/blackText"
+            app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+    </android.support.design.widget.AppBarLayout>
+
+    <ScrollView
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/blackText">
+
+        <LinearLayout
+            android:layout_margin="@dimen/activity_horizontal_margin"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <com.hanks.htextview.HTextView
+                android:id="@+id/about_pragya"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="About PRAGYAA"
+                android:textAlignment="center"
+                android:textColor="@color/whiteText"
+                android:textSize="24sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/sm_keyLines"
+                android:text="@string/about_pragyaa_text"
+                android:textColor="@color/whiteText"
+                android:textAlignment="center"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/link_pragyaa"
+                android:textColor="@color/blue"
+                android:text="@string/pragya_link"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:padding="@dimen/micro_keyLines"
+                android:textSize="16sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <com.hanks.htextview.HTextView
+                android:id="@+id/about_sggs"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/md_keyLines"
+                android:text="About Institute"
+                android:textAlignment="center"
+                android:textColor="@color/whiteText"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/link_sggs"
+                android:layout_width="match_parent"
+                android:layout_height="78dp"
+                android:layout_marginTop="@dimen/vsm_keyLines"
+                android:text="@string/about_sggs"
+                android:textAlignment="center"
+                android:textColor="@color/blue"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/vsm_keyLines"
+                android:text="An autonomous Institute owened by the Government of Maharashtra"
+                android:textColor="@color/whiteText"
+                android:textAlignment="center"
+                android:textSize="18sp" />
+
+            <TextView
+                android:textAlignment="center"
+                android:text="All rights reserved.Pragyaa 2019"
+                android:padding="@dimen/micro_keyLines"
+                android:paddingBottom="8dp"
+                android:textStyle="italic"
+                android:textSize="16sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+    </ScrollView>
+
+    </android.support.design.widget.CoordinatorLayout>
+
+
+

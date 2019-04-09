@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:id="@+id/schedule_events"
+    tools:context="org.pragyaa.pragyaa2018.ScheduleActivity">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@color/blackText"
+            app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+        <TextView
+            android:fontFamily="cursive"
+            android:id="@+id/activity_feed"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/dim_black"
+            android:padding="@dimen/vsm_keyLines"
+            android:text="Timeline"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:textColor="@color/whiteText"
+            android:textSize="18sp" />
+
+    </android.support.design.widget.AppBarLayout>
+
+
+
+        <android.support.v4.widget.SwipeRefreshLayout
+            android:id="@+id/swipe_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/event_schedules"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="@dimen/lm_keyLines"
+                android:background="@color/blackText"
+                android:scrollbars="vertical"
+                app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+
+        </android.support.v4.widget.SwipeRefreshLayout>
+
+
+</android.support.design.widget.CoordinatorLayout>

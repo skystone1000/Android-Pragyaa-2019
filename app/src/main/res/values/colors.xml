@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#34495e</color>
+
+    <color name="colorPrimaryDark">#000000</color>
+
+    <color name="colorAccent">#f1c40f</color>
+
+    <color name="transparentActionBar">#000000</color>
+
+    <color name="whiteText">#fff</color>
+    <color name="blackText">#000000</color>
+    <color name="black">#000000</color>
+    <color name="dim_black">#696969</color>
+
+
+    <color name="theme_primary_dark2">#000000</color>
+    <color name="background_card">#fff</color>
+
+    <color name="dark_blue">#000000</color>
+    <color name="dark_grey">#424242</color>
+    <color name="dark_red">#0079d5</color>
+
+    <color name="orange">#e67e22</color>
+    <color name="red">#e74c3c</color>
+    <color name="green">#27ae60</color>
+    <color name="voilet">#9b59b6</color>
+    <color name="blue">#3498db</color>
+    <color name="yellow">#f1c40f</color>
+    <color name="grey">#95a5a6</color>
+</resources>

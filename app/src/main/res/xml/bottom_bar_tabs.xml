@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tabs>
+    <tab
+        id="@+id/desc"
+        icon="@drawable/ic_description"
+        title="Description"
+        barColorWhenSelected="@color/colorPrimaryDark" />
+    <tab
+        id="@+id/rule"
+        icon="@drawable/ic_rules"
+        title="Rules"
+        barColorWhenSelected="@color/colorPrimaryDark" />
+    <tab
+        id="@+id/play"
+        icon="@drawable/ic_game_play"
+        title="Game Play"
+        barColorWhenSelected="@color/colorPrimaryDark"/>
+    <tab
+        id="@+id/specs"
+        icon="@drawable/ic_specification"
+        title="Specifications"
+        barColorWhenSelected="@color/colorPrimaryDark"/>
+</tabs>

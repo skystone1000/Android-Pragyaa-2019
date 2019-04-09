@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginTop="@dimen/sm_keyLines"
+    android:layout_marginRight="@dimen/sm_keyLines"
+    android:layout_marginLeft="@dimen/sm_keyLines"
+    app:cardCornerRadius="@dimen/vsm_keyLines">
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/dim_black"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="@dimen/vsm_keyLines">
+
+    <TextView
+        android:id="@+id/name_comit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/vsm_keyLines"
+        android:text="Committee Name"
+        android:textColor="@color/whiteText"
+        android:textAlignment="center"
+        android:textAppearance="?attr/textAppearanceListItem"
+        android:textSize="20sp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@color/colorPrimaryDark" />
+
+</LinearLayout>
+
+</android.support.v7.widget.CardView>

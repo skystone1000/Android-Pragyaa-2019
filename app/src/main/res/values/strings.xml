@@ -1,0 +1,239 @@
+<resources>
+    <string name="app_name">Pragyaa 2019</string>
+
+    <!--about us activity strings-->
+    <string name="about_pragyaa_text">
+        <b><i>"A wisdom by which truth can be seen.\n"</i></b>
+        A national level technical fiesta of SGGSIE&amp;T, Nanded organized every year to provide a
+        platform for students to show their excellence in techno-social competitions. Each year we
+        have a constructive theme working for the welfare of society &amp; technology. Students come in
+        huge numbers to participate in the multitude of events ranging from the brainstorming junior
+        scientist to the bewildering robotics and get a chance to delve into a variety of exhibits.
+        We aim at focusing on excellence of technology for human welfare and add a new dimension to
+        success of our extravaganza every year so that it will reach the height of its glory
+    </string>
+
+    <string name="about_sggs"><b><u>Shri Guru Gobind Singhji Institute of Engineering and Technology (SGGSIE&amp;T), Nanded"\n"</u></b>
+
+    </string>
+
+    <string-array name="quiz">
+        <item>CODEM PAPER PRESENTATION</item>
+        <item>COMING SOON</item>
+        <item>SWIPE YOUR SLIDE</item>
+        <item>SASHLESHAN PAPER PRESENTATION</item>
+        <item>PAPEL ELECTRICA (PPT)</item>
+        <item>PITCH YOUR PAPER</item>
+        <item>TECHNOCHEM</item>
+        <item>THREADED IDEAS</item>
+    </string-array>
+
+    <string-array name="online_eve">
+        <item>FACE THE NATION</item>
+        <item>E-BUZZ</item>
+        <item>CLEAN YOUR LENS</item>
+        <item>I THINK, THEREFORE I AM</item>
+        <item>BIOMEX</item>
+    </string-array>
+
+    <string-array name="designing">
+        <item>TRAIN YOUR TOOL</item>
+        <item>CADWAR</item>
+    </string-array>
+
+    <string-array name="paper">
+        <item>TECHNOTHON</item>
+        <item>CREATRICAL</item>
+    </string-array>
+
+
+    <string-array name="specialevents">
+        <item>DOODLE IT</item>
+        <item>SCRAP DEALERS</item>
+        <item>TALKING PEN</item>
+        <item>JUNIOR SCIENTIST</item>
+        <item>HISTORY BUFF</item>
+        <item>PRICE IS RIGHT</item>
+        <item>MOCK PLACEMENT</item>
+        <item>COMING SOON</item>
+        <item>COMING SOON</item>
+        <item>TRANSFORMING NATION</item>
+    </string-array>
+
+
+
+    <string-array name="robotics">
+        <item>SPEEDSTER</item>
+        <item>PICK N PLACE and LINE FOLLOWER BOT</item>
+        <item>EVENT</item>
+        <item>ROBOSOCCER</item>
+        <item>ROBOSUMO</item>
+        <item>MAZIOMANIA</item>
+        <item>DRONE RACING</item>
+
+    </string-array>
+
+    <string-array name="textplorer">
+        <item>KNITTING FASHION</item>
+        <item>STYLE YOUR MANNEQUIN</item>
+        <item>DRAW YOUR DESIGN</item>
+    </string-array>
+
+    <string-array name="tasking">
+        <item>AMAZING REACTION</item>
+        <item>BRAIN BOOSHUP</item>
+    </string-array>
+
+
+    <string-array name="gaming">
+        <item>NEED FOR SPEED (Most Wanted)</item>
+        <item>COUNTER STRIKE</item>
+        <item>FIFA</item>
+        <item>PUBG (SQUAD)</item>
+    </string-array>
+
+    <string-array name="cenfest">
+        <item>STALKING TOWER</item>
+        <item>SEEM CITY</item>
+        <item>BRIDGE UP</item>
+    </string-array>
+
+    <string-array name="coding">
+        <item>CODE IN LESS</item>
+        <item>COMING SOON</item>
+        <item>BLIND C</item>
+        <item>SWITCH HERO</item>
+        <item>MICROCON</item>
+
+    </string-array>
+
+    <!--description of the events-->
+    <string-array name="committees">
+        <item>Student\'s Chief Coordinators</item>
+        <item>Student\'s Joint Coordinators</item>
+
+        <item>Sponsorship Committee</item>
+        <item>Finance Committee</item>
+        <item>Event-Affairs Committee</item>
+        <item>Hospitality,Guest Management &amp; Lecture Series Committee</item>
+        <item>Web Designing &amp; Advertising Committee</item>
+        <item>Food &amp; Site Committee</item>
+        <item>Public Relations Committee</item>
+    </string-array>
+
+
+
+    <string-array name="chiefCordisMain">
+        <item>Manmeet Singh\n +91 700-687-7159</item>
+        <item>Arpit Dhobe\n +91 880-613-5818</item>
+    </string-array>
+
+    <string-array name="chiefCordisJoint">
+        <item>Gurleen Kaur Bhuye\n +91 916-819-8278</item>
+        <item>Aniket Tiwari\n +91 703-017-1025</item>
+    </string-array>
+
+    <string-array name="mainCoordis">
+        <item>Shreyash Meshram\n +91 959-523-8884</item>
+        <item>Vishal Karad\n +91 992-338-1120</item>
+        <item>Yogesh Lewadiwar\n+91 839-078-7767</item>
+        <item>Bikramjeet Singh\n +91 976-783-4843 </item>
+        <item>Mayank Raj\n +91 976-783-4843</item>
+        <item>Ankit Dalal\n +91 965-727-4413 </item>
+        <item>Sahil Gawande\n+91 820-850-0746</item>
+    </string-array>
+
+
+    <string-array name="jointOne">
+        <item>Sakshi Ghoghre \n +91 738-589-4438</item>
+        <item>Samruddhi Ingale \n +91 866-945-0973</item>
+        <item>Divyata Lokhande \n +91 983-469-2530</item>
+        <item>Manaswi Makwana \n +91 878-880-0452</item>
+        <item>Aditya Mahajan \n +91 860-502-1269</item>
+        <item>Mrunal Joshi \n +91 976-788-3052</item>
+        <item>Sayali Ilmulwar \n +91 956-180-9067</item>
+    </string-array>
+
+
+    <string-array name="jointTwo">
+        <item>Aditi Vadarge\n +91 773-801-4401</item>
+        <item>Rohit Joshi \n +91 976-533-4777</item>
+        <item>Nikita Dhake \n +91 983-419-7879 </item>
+        <item>Tishma Wankhade \n +91 983-448-7592</item>
+        <item>Mansi Wakodkar \n +91 983-434-0509</item>
+        <item>Gangaprasad Chinmod \n +91 860-544-6268</item>
+        <item>Shashank Dakre \n +91 703-087-1210</item>
+    </string-array>
+
+
+    <string-array name="jointThree">
+        <item>Nikhil Nakode\n +91 904-960-3763 </item>
+        <item>Avirat Puranik \n +91 775-590-3200</item>
+        <item>Akshay Kendre \n +91 705-838-7384</item>
+        <item>Shubham Ghoti \n +91 911-233-5388</item>
+        <item>Shreya Talwekar \n +91 986-031-1717</item>
+        <item>Himanshu Patil \n +91 976-760-5741</item>
+        <item>Balpreet Singh \n +91 982-304-2913</item>
+    </string-array>
+
+
+    <string-array name="jointFour">
+        <item>Latesh Munde\n +91 737-851-6823</item>
+        <item></item>
+        <item>Shrihari Pochhe \n +91 976-548-4128</item>
+        <item>Gaurav Bhandarkar \n +91 950-359-9078</item>
+        <item>Anway Ramteke \n +91 94-204-49592</item>
+        <item>Kunal Bhavasar \n +91 976-489-2990</item>
+        <item>Sanket Khandare \n +91 988-169-8852</item>
+    </string-array>
+
+    <string-array name="jointFive">
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item>Aman Agarwal \n +91 855-198-1258 \n \nAnurag More \n +91 814-914-2788</item>
+        <item>Krishna Kushvaha \n +91 983-443-9083</item>
+        <item></item>
+    </string-array>
+
+    <string-array name="jointSix">
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item>Anurag More \n +91 814-914-2788</item>
+        <item></item>
+        <item></item>
+    </string-array>
+
+
+
+    <!--event detail activity strings-->
+    <string name="mobi_one"><u> mobi one </u></string>
+    <string name="mobi_two"><u> mobi two </u></string>
+    <string name="dropdown_name">Select an Event</string>
+    <string name="title_activity_hospitality">Hospitality</string>
+    <string name="hospitality_desc">Hospitality of the guests is of paramount importance on any auspicious occasion.Over the years, Pragyaa has grown in stature, both in terms of its content, as well as its infrastructure and logistics. The dream which had humble beginnings has come to become a technical extravaganza, drawing crowds numbering in tens of thousands. Along with the facilities of accommodation for participants, we arrange a food court where a variety of cuisines satisfying the needs of every palate is available. Pragyaa team strives to make your stay comfortable and see to it that all participants get all the privileges and no chance of any grievances thus setting new standards in hospitality management.</string>
+    <string name="accommodation">
+        1) Food Charges will be applicable.<br />
+        2) Girl participants will be accommodated in SGGS Girl\'s Hostel in College campus.<br />
+        3) Boy participants will be accommodated in Boy\'s Hostel and nearby places to College campus.<br />
+        4) College Buses will be running at regular intervals to and from bus station, railway station, accommodation places and college.<br /></string>
+    <string name="copyright">PRAGYAA-2019<br /></string>
+    <string name="alert_web"><![CDATA[And Web Designing & Advertising Team]]></string>
+    <string name="design_text_alert">-Designed and Developed by-</string>
+    <string name="title_activity_schedule">Events &amp; Schedule</string>
+    <string name="about_us_activity_title">About Us</string>
+    <string name="event_details_activity_title">Event Name</string>
+    <string name="title_activity_committee">CommitteeActivity</string>
+
+
+    <string name="pragya_link"><u>http://www.pragyaa.org</u></string> //activity_about_us.xml page
+    <string name="register_text"><u>Register</u></string>
+    <string name="title_activity_info_dept">Departmental events Info</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="shevat"> Aditya Mahajan</string>
+</resources>
