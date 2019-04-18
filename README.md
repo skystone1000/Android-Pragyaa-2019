@@ -1,7 +1,9 @@
 # Pragyaa-2019
 Pragyaa (Technical fest) Android App 
 
-<img src="https://github.com/skystone1000/Pragyaa-2019/blob/master/app/src/main/res/drawable/pragyaa_header.jpg" align="left" width="80%" hspace="20"  space="10">
+<img src="https://github.com/skystone1000/Pragyaa-2019/blob/master/app/src/main/res/drawable/pragyaa_header.jpg" align="left" width="80%" max-height="50px" hspace="20"  space="10">
+
+<br>
 
 <div style="display:flex;" >
   
